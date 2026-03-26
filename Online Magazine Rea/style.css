@@ -1,0 +1,78 @@
+Body {
+    Font-family: Arial;
+    Max-width: 1000px;
+    Margin: 0 auto;
+    Padding: 20px;
+    Background: #f0f0f0;
+}
+
+
+.menu {
+    Background: #333;
+    Padding: 15px;
+    Text-align: center;
+}
+
+.menu a {
+    Color: white;
+    Text-decoration: none;
+    Padding: 10px 20px;
+    Margin: 0 5px;
+}
+
+.menu a:hover {
+    Background: #555;
+}
+
+H1 {
+    Color: #333;
+    Text-align: center;
+}
+
+.article {
+    Background: white;
+    Padding: 15px;
+    Margin: 15px 0;
+    Border-radius: 5px;
+}
+
+
+Ol, ul {
+    Background: white;
+    Padding: 20px 40px;
+    Line-height: 2;
+}
+
+
+Img {
+    Border-radius: 5px;
+    Margin: 10px;
+}
+
+
+.team {
+    Background: white;
+    Padding: 15px;
+    Margin: 15px;
+    Text-align: center;
+    Display: inline-block;
+    Width: 250px;
+}
+
+
+Video {
+    Max-width: 100%;
+    Margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+    .menu a {
+        Display: block;
+        Margin: 5px 0;
+    }
+    
+    .team {
+        Display: block;
+        Width: auto;
+    }
+}
